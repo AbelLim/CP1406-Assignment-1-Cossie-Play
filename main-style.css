@@ -137,5 +137,16 @@ footer a {
 	border:#996 3px solid;
 	margin-top: 30px;
 	padding-left:20px;
-	height: 200px;
+	height: 220px;
+}
+
+.text-segment img {
+		float:left;
+		height:120px;
+		width:160px;
+		padding-right:10px;
+}
+
+.text-segment a {
+	font-weight:bold;
 }
