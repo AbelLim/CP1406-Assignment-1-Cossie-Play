@@ -39,11 +39,6 @@ footer a {
 	text-decoration:none;
 }
 
-#navigation-bar:after{
-	display:inline;
-	
-}
-
 #navigation-bar ul{
 	margin: 0px;
 	padding: 10px;
@@ -144,7 +139,7 @@ footer a {
 
 .text-segment img {
 		float:left;
-		width:180px;
+		width:13vw;
 		padding-right:10px;
 }
 
@@ -188,11 +183,45 @@ footer a {
 .text-segment-full img {
 		float:left;
 		vertical-align:top;
-		width:320px;
+		width:15vw;
 		padding-top:20px;
 		padding-right:10px;
 }
 
 .text-segment-full a {
 	font-weight:bold;
+}
+
+.text-segment-full table{
+	width:100%;
+	margin-bottom:10px;
+	border:#996 2px solid;
+	border-collapse:collapse;
+}
+
+.text-segment-full table tr:nth-child(even){
+	background-color:#996;
+}
+
+.text-segment-full table th{
+	text-align:left;
+	text-transform:uppercase;
+	border:#996 2px solid;
+}
+
+.text-segment-full table td{
+	text-transform:capitalize;
+	border:#996 2px solid;
+}
+
+.text-segment-full table td a{
+	display:block;
+	width:100%;
+	text-decoration:none;
+	color:inherit;
+	padding: 2px 0px 2px 5px;
+}
+
+.text-segment-full table td a:hover{
+	background-color:#999;
 }
