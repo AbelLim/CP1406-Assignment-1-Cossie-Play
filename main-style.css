@@ -11,13 +11,24 @@ body {
 
 header {
 	color:#FFF;
-	text-align:center
 	text-decoration:none;
 	box-sizing:border-box;
 }
 
+main {
+	color:#000;
+}
+
+main:after {
+	clear:both;
+}
+
+#navigation-bar:after{
+	display:inline;
+	
+}
+
 #navigation-bar ul{
-	position: absolute;
 	margin: 0px;
 	padding: 10px;
 	background-color:#000;
@@ -39,4 +50,46 @@ header {
 	text-transform:uppercase;
 }
 
+#banner-image {
+	width:100%;
+}
 
+#banner-text {
+	color:#000;
+	display:block;
+	padding-right:5%;
+	text-align:left;
+	text-decoration:none;
+	position:absolute;
+	top:130px;
+	left:20%;
+}
+
+#banner-text h1{
+	margin:0;
+	position:relative;
+	left:10%;
+	font-size:8em;
+}
+
+#banner-text h2{
+	font-size:1.5em;
+}
+
+#column-L {
+	width:15%;
+}
+
+#column-C {
+	width:55%;	
+	background-color:#CC9;
+}
+
+#column-R {
+	width:15%;
+}
+
+.column {
+	float:left;
+	padding-left:3%
+}
