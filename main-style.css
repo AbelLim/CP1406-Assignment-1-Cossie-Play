@@ -85,16 +85,16 @@ footer a {
 	margin:0;
 	position:relative;
 	left:10%;
-	font-size:8em;
+	font-size:8vw;
 	text-shadow:0.1em 0.1em 0.075em #CCCCCC;
 }
 
 #banner-text h2{
-	font-size:1.5em;
+	font-size:2vw;
 }
 
 #column-L {
-	width:15%;
+	width:10%;
 }
 
 #column-C {
@@ -107,7 +107,7 @@ footer a {
 }
 
 #column-R {
-	width:10%;
+	width:15%;
 }
 
 #footer-spacing {
@@ -135,18 +135,64 @@ footer a {
 
 .text-segment {
 	border:#996 3px solid;
+	background-color:#CC9;
 	margin-top: 30px;
 	padding-left:20px;
+	padding-right:10px;
 	height: 220px;
 }
 
 .text-segment img {
 		float:left;
-		height:120px;
-		width:160px;
+		width:180px;
 		padding-right:10px;
 }
 
 .text-segment a {
+	font-weight:bold;
+}
+
+.text-segment ul{
+	margin-right:10%;
+	padding:0;
+	border-top:#996 3px solid;
+}
+
+.text-segment ul li{	
+	list-style:none;
+}
+
+.text-segment ul li a{
+	display:block;
+	border-left:#996 3px solid;
+	border-bottom:#996 3px solid;
+	border-right:#996 3px solid;
+	padding:3px 20px 3px 20px;
+	width:inherit;
+	color:#000;
+	text-decoration:none;
+}
+
+.text-segment ul li a:hover{
+	background-color:#999;
+}
+
+.text-segment-full {
+	border:#996 3px solid;
+	margin-top: 30px;
+	padding-left:20px;
+	padding-right:10px;
+	height: 100%;
+}
+
+.text-segment-full img {
+		float:left;
+		vertical-align:top;
+		width:320px;
+		padding-top:20px;
+		padding-right:10px;
+}
+
+.text-segment-full a {
 	font-weight:bold;
 }
