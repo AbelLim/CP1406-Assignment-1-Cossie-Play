@@ -19,8 +19,18 @@ main {
 	color:#000;
 }
 
-main:after {
-	clear:both;
+footer{
+	background-color:#000;
+	color:#FFF;
+	text-align:center;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+footer a {
+	color:#FFF;
+	text-decoration:none;
 }
 
 #navigation-bar:after{
@@ -91,5 +101,12 @@ main:after {
 
 .column {
 	float:left;
-	padding-left:3%
+	padding-left:2%;
+	padding-right:3%;
+}
+
+.column-end {
+	clear:both;
+	content:"";
+	display:table;
 }
