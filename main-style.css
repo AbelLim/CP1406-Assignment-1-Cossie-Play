@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+header, section, footer, aside, article, figure {
+	display: block;
+}
+
 body {
 	margin:0;
 	padding:0;
@@ -93,12 +97,16 @@ footer a {
 }
 
 #column-C {
-	width:55%;	
+	width:60%;	
 	background-color:#CC9;
 }
 
+#column-C h1 {
+	text-transform:uppercase;
+}
+
 #column-R {
-	width:15%;
+	width:10%;
 }
 
 #footer-spacing {
@@ -127,5 +135,6 @@ footer a {
 .text-segment {
 	border:#996 3px solid;
 	margin-top: 30px;
-	height: 400px;
+	padding-left:20px;
+	height: 200px;
 }
