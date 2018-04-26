@@ -39,6 +39,10 @@ footer a {
 	text-decoration:none;
 }
 
+#navigation-bar {
+	width:98.736%;
+}
+
 #navigation-bar ul{
 	margin: 0px;
 	padding: 10px;
@@ -135,6 +139,7 @@ footer a {
 	padding-left:20px;
 	padding-right:10px;
 	height: 220px;
+	overflow:hidden;
 }
 
 .text-segment img {
@@ -166,6 +171,7 @@ footer a {
 	width:inherit;
 	color:#000;
 	text-decoration:none;
+	overflow:hidden;
 }
 
 .text-segment ul li a:hover{
@@ -178,6 +184,7 @@ footer a {
 	padding-left:20px;
 	padding-right:10px;
 	height: 100%;
+	overflow:hidden;
 }
 
 .text-segment-full img {
