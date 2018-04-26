@@ -34,8 +34,14 @@ footer{
 	width:100%;
 }
 
-footer a {
+footer p {
 	color:#FFF;
+	position:relative;
+	bottom:-1em;
+}
+
+footer a {
+	color:inherit;
 	text-decoration:none;
 }
 
